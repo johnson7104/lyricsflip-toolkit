@@ -5,8 +5,8 @@
   "license": "MIT",
   "description": "The smallest possible game on lyricsflip-toolkit: two players stake, the server flips a coin.",
   "scripts": {
-    "build": "node init && tsc -p tsconfig.build.json",
-    "start": "node init && node dist/main.js",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/main.js",
     "test": "jest --runInBand"
   },
   "dependencies": {
